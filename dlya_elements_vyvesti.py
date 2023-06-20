@@ -11,7 +11,7 @@
 
 import sys
 
-data = [42, 4.5,'slovo', 42, 4.5,'slovo']
-for i in range(0,6):
-	print(i+1, data[i], id(i), sys.getsizeof(data[i]), hash(data[i]), if isinstance(data, int): 'целое' else: '',\
-            if isinstance(data, str): 'строка' else: '')
+data = [42, 4.5, 'sveta', 42, 4.5, 'sveta']
+for i in range(0, 6):
+ print(i+1, data[i], id(i), sys.getsizeof(data[i]), hash(data[i]), 'celoe' if isinstance(data[i], int) else '', \
+       'stroka' if isinstance(data[i], str) else '')
